@@ -12,6 +12,7 @@ p{
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .half_width{
     width: 50%;   
@@ -29,7 +30,16 @@ p{
 }
 
 .half_width img{
-    width: 100%;
+    width: 70%;
+}
+.one_pic{
+    width: 50%;
+    padding-right: 15%;
+    padding-left: 5%;
+} 
+.two_pic{
+    width: 50%;
+    padding-left: 15%; 
 }
 .anchor_button{
     text-decoration: none;
@@ -39,9 +49,7 @@ p{
     font-weight: 900;
     border-radius: 10px;
 }
-.second_area{
-    padding: 0 10%;
-}
+
 .illustrate_area{
     width: 20%;
     padding: 5%;
@@ -59,11 +67,7 @@ p{
 }
 
 .illustrate_area img{
-    width: 40%;
-}
-.two_pic{
-    width: 50%;
-    padding-left: 15%;
+    width: 60%;
 }
 .center_align{
     text-align: center;
@@ -74,10 +78,27 @@ footer{
     padding-bottom: 30px;
     text-align: center;
     margin-top: 30px;
+} 
+
+footer h3{
+ color: white;   
 }
 footer p{
     color: white;
 }
-footer h3{
-    color: white;
+.form_button{
+    padding: 2px 30px;
+    margin-right: 30px;
+    background-image: linear-gradient(white, rgb(146, 141, 141));
+    border-radius: 10px;
+}
+.anchor{
+    
+    color: black;
+}
+.form{
+    background-color: rgba(3, 31, 3, 0.247);
+    border-radius: 10px;
+    margin: 0 10%;
+    box-shadow: 10px 10px 40px black;
 }
