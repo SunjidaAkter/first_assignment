@@ -72,20 +72,7 @@ p{
 .center_align{
     text-align: center;
 }
-footer{
-    background-image: linear-gradient(black, rgb(37, 35, 35));
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    margin-top: 30px;
-} 
 
-footer h3{
- color: white;   
-}
-footer p{
-    color: white;
-}
 .form_button{
     padding: 2px 30px;
     margin-right: 30px;
@@ -101,4 +88,18 @@ footer p{
     border-radius: 10px;
     margin: 0 10%;
     box-shadow: 10px 10px 40px black;
+}
+footer{
+    background-image: linear-gradient(black, rgb(37, 35, 35));
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+} 
+
+footer h3{
+ color: white;   
+}
+footer p{
+    color: white;
 }
