@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(210, 236, 247, 0.281);
+    margin: 0;
+} 
+p{
+    color: black;
+    font-weight: 900;
+}
+.first_area{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
+}
+.half_width{
+    width: 50%;   
+}
+.sky_blue{
+    color: rgb(20, 163, 115);
+}
+#box{
+    font-size: 25px;    
+    margin-top: 100px;
+    border-left: 5px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.half_width img{
+    width: 100%;
+}
+.anchor_button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(90deg, black,gray);
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.second_area{
+    padding: 0 10%;
+}
+.illustrate_area{
+    width: 20%;
+    padding: 5%;
+    margin-right: 5% ;
+    border-radius: 10px;
+}
+#illustrate_one{
+    background-color: rgba(42, 85, 124, 0.363);
+}
+#illustrate_two{
+    background-color: rgba(37, 37, 37, 0.342);
+}
+#illustrate_three{
+    background-color: rgba(65, 80, 42, 0.795);
+}
+
+.illustrate_area img{
+    width: 40%;
+}
+.two_pic{
+    width: 50%;
+    padding-left: 15%;
+}
+.center_align{
+    text-align: center;
+}
+footer{
+    background-image: linear-gradient(black, rgb(37, 35, 35));
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+footer p{
+    color: white;
+}
+footer h3{
+    color: white;
+}
